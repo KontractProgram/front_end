@@ -36,3 +36,132 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.cap{
+  font-size: x-large;
+  text-align: right;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  text-shadow: orange;
+}
+.welcome{
+  text-align: left;
+}
+.main_container{
+  display:flex;
+  width: 90%;
+  height: 683px;
+  justify-self: center;
+  padding-top: 50px;
+
+}
+.left_section{
+  width: 45%;
+  border: orange solid 3px;
+  background-color: rgba(0,0, 0, 0.2);
+}
+.right_section{
+  width: 55%;
+  border: orange solid 3px;
+}
+.graph{
+
+}
+.values{
+
+}
+
+.submit{
+  display: inline-block;
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.reset{
+  display: inline-block;
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.logout{
+  display: inline-block;
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  text-align: right;
+}
+
+.heading_text{
+  font-size: 20px;
+  background-color: orange;
+  border: red solid 2px;
+
+}
+.input_form_info{
+  color: orangered;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.form{
+
+
+}
+.xyr_values{
+  text-align: center;
+  display: inline-flex;
+}
+.X{
+
+}
+.selectX{
+  text-align: left;
+}
+
+.table_container{
+  flex-grow: 1;
+  overflow-y: scroll;
+  height: 348px;
+}
+.table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table tr{
+  height: 2.5em;
+}
+.coord_column{
+  background-color: #cf813f;
+}
+
+
+
